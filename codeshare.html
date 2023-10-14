@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8" />
+ <style>
+ * {
+   margin:0;
+   padding:0;
+   }
+ body {
+   background-color:#444;
+   color:white;
+   }
+ 
+#code {
+  margin:15px;
+  box-shadow:0 0 10px rgba(0,0,0,0.5);
+  padding:10px;
+  }
+ </style>
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>代码分享</title>
+  </head>
+  <body>
+  <div style="text-align:center;background:#555;padding:15px 15px;">代码分享</div>	
+	<div id="code">Python输入两个数交换变量
+ <hr>
+ <pre>
+a = int(input("请输入一个数:")) 
+b = int(input("请输入一个数:"))
+print("变量交换前")
+print("a:",a)
+print("b:",b)
+c = a
+a = b
+b = c
+print("变量交换后")
+print("a:",a)
+print("b:",b)
+   </code></pre>
+   <hr>
+   <p>这段代码意思是先输入两个整数，然后把a赋值给c，这样a的值是空值，然后把b赋值给变量a，这时变量a的值就是变量b的值而变量b是空值，最后把变量c赋值给变量b，这时变量a的值是变量b的值变量b的值是变量a的值。</p>
+ </div>
+  </body>
+</html>

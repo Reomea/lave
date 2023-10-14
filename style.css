@@ -1,0 +1,29 @@
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  }
+body {
+  background-color:SkyBlue;
+  color:white;
+  }
+#art {
+  text-align:center;
+  background-color:#0096ff;
+  padding:25px; 
+  box-shadow:0 0 10px rgba(0,0,0,0.5);
+  }
+#article {
+  box-shadow:0 0 10px rgba(0,0,0,0.5);
+  padding-bottom:25px;
+  margin-top:25px;
+  border-radius:10px;
+  padding-left:5px;
+  }
+#retu {
+  margin:35px;
+  text-align:center;
+  background-color:#00b7ff;
+  width:200px;
+  padding:5px;
+  }
